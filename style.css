@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lobster&display=swap");
+
+:root {
+  --font-title: "Lobster", cursive;
+  --font-text: "Fira Sans", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+}
+
+h3,
+p {
+  margin: 1vw;
+}
+
+p {
+  font-family: var(--font-text);
+}
+
+.flex-container {
+  display: flex;
+  margin: auto;
+  left: 50%;
+  max-width: 50%;
+  padding: 0.5vw;
+}
