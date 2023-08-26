@@ -25,10 +25,22 @@ p {
   font-family: var(--font-text);
 }
 
+hr {
+  max-width: 50%;
+}
+
+img {
+  max-width: 50%;
+}
+
 .flex-container {
   display: flex;
   margin: auto;
   left: 50%;
   max-width: 50%;
   padding: 0.5vw;
+}
+
+#name {
+  font-family: var(--font-text);
 }
